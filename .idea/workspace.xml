@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4faddfaf-d4b1-41c2-a5de-245d3819a9dc" name="Changes" comment="Module1: How we do TDD: TDD Cycle: End of Red Phase">
+    <list default="true" id="4faddfaf-d4b1-41c2-a5de-245d3819a9dc" name="Changes" comment="Module1: How we do TDD: TDD Cycle: Refactor Phase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzzShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzzShould.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720178222698</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Module1: How we do TDD: TDD Cycle: Refactor Phase">
+      <option name="closed" value="true" />
+      <created>1720182194687</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720182194687</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +359,8 @@
     <MESSAGE value="Module1: How we do TDD: Three rules of TDD: Break rule 3" />
     <MESSAGE value="Module1: How we do TDD: TDD Cycle: 1" />
     <MESSAGE value="Module1: How we do TDD: TDD Cycle: End of Red Phase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module1: How we do TDD: TDD Cycle: End of Red Phase" />
+    <MESSAGE value="Module1: How we do TDD: TDD Cycle: Refactor Phase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module1: How we do TDD: TDD Cycle: Refactor Phase" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
