@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4faddfaf-d4b1-41c2-a5de-245d3819a9dc" name="Changes" comment="Module1: How we do TDD: Three rules of TDD: Break rule 3">
+    <list default="true" id="4faddfaf-d4b1-41c2-a5de-245d3819a9dc" name="Changes" comment="Module1: How we do TDD: TDD Cycle: 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzzShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzzShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzzShould.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="6b9bd20a22c1d3c958e69f3325663454fff7f048" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -62,10 +67,10 @@
     &quot;accountId&quot;: &quot;4079533e-bb17-4868-8dbf-e845a0cfe1d5&quot;
   }
 }</component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ionJAK3vlVqrxRMd16o6aqsoAB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -76,6 +81,9 @@
   "keyToString": {
     "Gradle.FizzBuzzShould.Convert1To1.executor": "Run",
     "Gradle.FizzBuzzShould.Covert3ToFizz.executor": "Run",
+    "Gradle.FizzBuzzShould.convert1To1.executor": "Run",
+    "Gradle.FizzBuzzShould.executor": "Run",
+    "Gradle.FizzBuzzShould.name.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -108,10 +116,35 @@
       <recent name="com.codurance.module1.howWeDoTDD.threeRulesOfTDD" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.codurance.module1.howWeDoTDD.threeRulesOfTDD" />
       <recent name="com.codurance.module1.howWeDoTDD.ruleOfTDD" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FizzBuzzShould.Convert1To1">
+  <component name="RunManager" selected="Gradle.FizzBuzzShould.convert1To1">
+    <configuration name="FizzBuzzShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.codurance.module1.howWeDoTDD.threeRulesOfTDD.FizzBuzzShould&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="FizzBuzzShould.Convert1To1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -160,10 +193,61 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="FizzBuzzShould.convert1To1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.codurance.module1.howWeDoTDD.threeRulesOfTDD.FizzBuzzShould.convert1To1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="FizzBuzzShould.name" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.codurance.module1.howWeDoTDD.threeRulesOfTDD.FizzBuzzShould.name&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FizzBuzzShould.Convert1To1" />
+        <item itemvalue="Gradle.FizzBuzzShould.convert1To1" />
+        <item itemvalue="Gradle.FizzBuzzShould.name" />
+        <item itemvalue="Gradle.FizzBuzzShould" />
         <item itemvalue="Gradle.FizzBuzzShould.Covert3ToFizz" />
+        <item itemvalue="Gradle.FizzBuzzShould.Convert1To1" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720166905362</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Module1: How we do TDD: TDD Cycle: 1">
+      <option name="closed" value="true" />
+      <created>1720176739461</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720176739461</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +341,8 @@
     <MESSAGE value="Module1: How we do TDD: Three rules of TDD: Break rule 1" />
     <MESSAGE value="Module1: How we do TDD: Three rules of TDD: Break rule 2" />
     <MESSAGE value="Module1: How we do TDD: Three rules of TDD: Break rule 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module1: How we do TDD: Three rules of TDD: Break rule 3" />
+    <MESSAGE value="Module1: How we do TDD: TDD Cycle: 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module1: How we do TDD: TDD Cycle: 1" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
