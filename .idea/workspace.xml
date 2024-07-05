@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4faddfaf-d4b1-41c2-a5de-245d3819a9dc" name="Changes" comment="Module1: How we do TDD: Three rules of TDD: Break rule 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzz.java" afterDir="false" />
+    <list default="true" id="4faddfaf-d4b1-41c2-a5de-245d3819a9dc" name="Changes" comment="Module1: How we do TDD: Three rules of TDD: Break rule 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzzShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzzShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/module1/howWeDoTDD/threeRulesOfTDD/FizzBuzzShould.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +184,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720162183324</updated>
       <workItem from="1720162187647" duration="3491000" />
-      <workItem from="1720165728245" duration="1116000" />
+      <workItem from="1720165728245" duration="1216000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -210,7 +210,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720166540226</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Module1: How we do TDD: Three rules of TDD: Break rule 2">
+      <option name="closed" value="true" />
+      <created>1720166863980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720166863980</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Module1: How we do TDD: Three rules of TDD: Break rule 3">
+      <option name="closed" value="true" />
+      <created>1720166905362</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720166905362</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +247,9 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Module1: How we do TDD: Three rules of TDD: 1" />
     <MESSAGE value="Module1: How we do TDD: Three rules of TDD: Break rule 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module1: How we do TDD: Three rules of TDD: Break rule 1" />
+    <MESSAGE value="Module1: How we do TDD: Three rules of TDD: Break rule 2" />
+    <MESSAGE value="Module1: How we do TDD: Three rules of TDD: Break rule 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module1: How we do TDD: Three rules of TDD: Break rule 3" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
