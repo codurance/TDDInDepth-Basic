@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4faddfaf-d4b1-41c2-a5de-245d3819a9dc" name="Changes" comment="Module1: How we do TDD: TDD Cycle: Refactoring for duplication">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/module1/preRequisites/whatIsTesting/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/module1/preRequisites/whatIsTesting/Main.java" afterDir="false" />
+    <list default="true" id="4faddfaf-d4b1-41c2-a5de-245d3819a9dc" name="Changes" comment="Module1: Pre-requisites: What is testing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/module1/preRequisites/whatIsAutomatedTesting/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/preRequisites/whatIsAutomatedTesting/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -85,6 +85,7 @@
     "Gradle.FizzBuzzShould.convert2To2.executor": "Run",
     "Gradle.FizzBuzzShould.executor": "Run",
     "Gradle.FizzBuzzShould.name.executor": "Run",
+    "Gradle.TDDInDepth [:CalculatorTest.main()].executor": "Run",
     "Gradle.TDDInDepth [:Main.main()].executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -119,11 +120,28 @@
       <recent name="com.codurance.module1.howWeDoTDD.threeRulesOfTDD" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.codurance.module1.preRequisites.whatIsAutomatedTesting" />
       <recent name="com.codurance.module1.howWeDoTDD.threeRulesOfTDD" />
       <recent name="com.codurance.module1.howWeDoTDD.ruleOfTDD" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codurance.module1.preRequisites.whatIsAutomatedTesting" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.CalculatorTest">
+    <configuration name="CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codurance.module1.preRequisites.whatIsAutomatedTesting.CalculatorTest" />
+      <module name="TDDInDepth.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codurance.module1.preRequisites.whatIsAutomatedTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codurance.module1.preRequisites.whatIsTesting.Main" />
       <module name="TDDInDepth.main" />
@@ -175,30 +193,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="FizzBuzzShould.convert1To1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.codurance.module1.howWeDoTDD.threeRulesOfTDD.FizzBuzzShould.convert1To1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="FizzBuzzShould.convert2To2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -225,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorTest" />
         <item itemvalue="Application.com.codurance.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.FizzBuzzShould" />
         <item itemvalue="Gradle.FizzBuzzShould.convert2To2" />
-        <item itemvalue="Gradle.FizzBuzzShould.convert1To1" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +245,7 @@
       <updated>1720162183324</updated>
       <workItem from="1720162187647" duration="3491000" />
       <workItem from="1720165728245" duration="1216000" />
-      <workItem from="1720599616468" duration="1116000" />
+      <workItem from="1720599616468" duration="4240000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -333,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720599638423</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Module1: Pre-requisites: What is testing">
+      <option name="closed" value="true" />
+      <created>1720600821307</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720600821307</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +363,8 @@
     <MESSAGE value="Module1: How we do TDD: TDD Cycle: Refactor Phase" />
     <MESSAGE value="Module1: How we do TDD: TDD Cycle: Refactoring for readability" />
     <MESSAGE value="Module1: How we do TDD: TDD Cycle: Refactoring for duplication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module1: How we do TDD: TDD Cycle: Refactoring for duplication" />
+    <MESSAGE value="Module1: Pre-requisites: What is testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module1: Pre-requisites: What is testing" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
@@ -373,11 +376,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/codurance/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/codurance/module1/preRequisites/whatIsTesting/Main.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
