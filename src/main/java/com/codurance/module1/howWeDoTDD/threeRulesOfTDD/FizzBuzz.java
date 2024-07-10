@@ -18,10 +18,22 @@ public class FizzBuzz {
     }
 
     private boolean isBuzz(int number) {
-        return number % 5 == 0;
+        return isDivisibleBy5(number);
+    }
+
+    private static boolean isDivisibleBy5(int number) {
+        return isDivisibleBy(number, 5);
+    }
+
+    private static boolean isDivisibleBy(int number, int divisor) {
+        return number % divisor == 0;
     }
 
     private boolean isFizz(int number) {
-        return number % 3 == 0;
+        return isDivisibleBy3(number);
+    }
+
+    private static boolean isDivisibleBy3(int number) {
+        return isDivisibleBy(number, 3);
     }
 }
