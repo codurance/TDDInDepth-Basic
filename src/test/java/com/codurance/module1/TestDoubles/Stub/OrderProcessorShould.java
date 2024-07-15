@@ -9,7 +9,7 @@ public class OrderProcessorShould {
      * we want to test order processing without calling the real payment gateway.
      */
     @Test
-    public void should_throw_payment_charge_failed_exception_after_failing_to_make_a_charge() throws Exception {
+    public void throw_payment_charge_failed_exception_after_failing_to_make_a_charge() throws Exception {
         PaymentGateway paymentGatewayStub = new FailingPaymentGatewayStub();
         OrderProcessor processor = new OrderProcessor(paymentGatewayStub);
 
