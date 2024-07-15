@@ -7,42 +7,31 @@ import static org.junit.jupiter.api.Assertions.*;
 class BankAccountShould {
 
     @Test
-    public void increaseBalanceOnDeposit() {
+    public void increaseBalanceAfterDeposit() {
         BankAccount bankAccount = new BankAccount();
-        int depositAmount = 100;
-        int expectedBalance = 100;
 
-        bankAccount.deposit(depositAmount);
-        int balance = bankAccount.checkBalance();
+        bankAccount.deposit(100);
 
-        assertEquals(expectedBalance, balance);
+        assertEquals(100, bankAccount.checkBalance());
     }
 
     @Test
-    public void decreaseBalanceOnWithdrawal() {
+    public void decreaseBalanceAfterWithdrawal() {
         BankAccount bankAccount = new BankAccount();
-        int depositAmount = 200;
-        int withdrawalAmount = 100;
-        int expectedBalance = 100;
 
-        bankAccount.deposit(depositAmount);
-        bankAccount.withdraw(withdrawalAmount);
-        int balance = bankAccount.checkBalance();
+        bankAccount.deposit(200);
+        bankAccount.withdraw(100);
 
-        assertEquals(expectedBalance, balance);
+        assertEquals(100, bankAccount.checkBalance());
     }
 
     @Test
-    public void notDecreaseBalanceWhenInsufficientFunds() {
+    public void notDecreaseBalanceAfterWithdrawalWithInsufficientFunds() {
         BankAccount bankAccount = new BankAccount();
-        int depositAmount = 100;
-        int withdrawalAmount = 200;
-        int expectedBalance = 100;
 
-        bankAccount.deposit(depositAmount);
-        bankAccount.withdraw(withdrawalAmount);
-        int balance = bankAccount.checkBalance();
+        bankAccount.deposit(100);
+        bankAccount.withdraw(200);
 
-        assertEquals(expectedBalance, balance);
+        assertEquals(100, bankAccount.checkBalance());
     }
 }
