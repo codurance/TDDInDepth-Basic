@@ -1,7 +1,7 @@
 package com.codurance.module1.TestDoubles.Stub;
 
 public class OrderProcessor {
-    private PaymentGateway paymentGateway;
+    private final PaymentGateway paymentGateway;
 
     public OrderProcessor(PaymentGateway paymentGateway) {
         this.paymentGateway = paymentGateway;
