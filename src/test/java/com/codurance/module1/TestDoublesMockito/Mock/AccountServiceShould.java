@@ -1,7 +1,11 @@
 package com.codurance.module1.TestDoublesMockito.Mock;
 
 import com.codurance.module1.TestDoubles.Mock.AccountService;
+import com.codurance.module1.TestDoubles.Mock.Logger;
 import org.junit.jupiter.api.Test;
+
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
 
 public class AccountServiceShould {
     /**
@@ -9,16 +13,13 @@ public class AccountServiceShould {
      */
     @Test
     public void log_a_message_each_time_a_deposit_is_added() {
-        MockLogger mockLogger = new MockLogger();
+        Logger logger = mock(Logger.class);
 
-        mockLogger.expect("Deposit added: 100.0");
-        mockLogger.expect("Deposit added: 50.0");
-
-        AccountService accountService = new AccountService(mockLogger);
+        AccountService accountService = new AccountService(logger);
 
         accountService.addDeposit(100.0);
         accountService.addDeposit(50.0);
 
-        mockLogger.verify();
-    }
+        verify(logger).log("Deposit added: 100.0");
+        verify(logger).log("Deposit added: 50.0");    }
 }
