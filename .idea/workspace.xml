@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4faddfaf-d4b1-41c2-a5de-245d3819a9dc" name="Changes" comment="Module1: Pre-requisites: What is testing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/module1/preRequisites/importanceOfAutomatedTests/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/preRequisites/importanceOfAutomatedTests/CalculatorShould.java" afterDir="false" />
+    <list default="true" id="4faddfaf-d4b1-41c2-a5de-245d3819a9dc" name="Changes" comment="Module1: Pre-requisites: Test Doubles Mockito files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Dummy/OrderProcessorShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Dummy/OrderProcessorShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Mock/AccountServiceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Mock/AccountServiceShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Spy/UserServiceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Spy/UserServiceShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Stub/OrderProcessorShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Stub/OrderProcessorShould.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,45 +75,57 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2ionJAK3vlVqrxRMd16o6aqsoAB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.FizzBuzzShould.Convert1To1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FizzBuzzShould.Covert3ToFizz.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FizzBuzzShould.convert1To1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FizzBuzzShould.convert2To2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FizzBuzzShould.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FizzBuzzShould.name.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TDDInDepth [:CalculatorTest.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TDDInDepth [:Main.main()].executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Ben/Documents/dev/TDDInDepth/src/main/java/com/codurance/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.AccountServiceShould.executor": "Run",
+    "Gradle.FizzBuzzShould.Convert1To1.executor": "Run",
+    "Gradle.FizzBuzzShould.Covert3ToFizz.executor": "Run",
+    "Gradle.FizzBuzzShould.convert1To1.executor": "Run",
+    "Gradle.FizzBuzzShould.convert2To2.executor": "Run",
+    "Gradle.FizzBuzzShould.executor": "Run",
+    "Gradle.FizzBuzzShould.name.executor": "Run",
+    "Gradle.OrderProcessorShould (1).executor": "Run",
+    "Gradle.OrderProcessorShould.executor": "Run",
+    "Gradle.TDDInDepth [:CalculatorTest.main()].executor": "Run",
+    "Gradle.TDDInDepth [:Main.main()].executor": "Debug",
+    "Gradle.Tests in 'TDDInDepth.test'.executor": "Run",
+    "Gradle.UserServiceShould.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "feature/test-doubles-mockito",
+    "go.import.settings.migrated": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Ben/Documents/dev/TDDInDepth/src/test/java/com/codurance/module1/TestDoublesMockito",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Ben/Documents/dev/TDDInDepth/src/main/java/com/codurance/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "ts.external.directory.path": "C:\\Users\\Ben\\Documents\\dev\\TDDInDepth\\typescript-examples\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.codurance.module1.howWeDoTDD.threeRulesOfTDD" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ben\Documents\dev\TDDInDepth\src\test\java\com\codurance\module1\TestDoublesMockito" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -130,48 +145,8 @@
       <recent name="com.codurance.module1.preRequisites.whatIsAutomatedTesting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CalculatorShould">
-    <configuration name="CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codurance.module1.preRequisites.whatIsAutomatedTesting.CalculatorTest" />
-      <module name="TDDInDepth.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codurance.module1.preRequisites.whatIsAutomatedTesting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codurance.module1.preRequisites.whatIsTesting.Main" />
-      <module name="TDDInDepth.main" />
-      <option name="PROGRAM_PARAMETERS" value="3 3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codurance.module1.preRequisites.whatIsTesting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.codurance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codurance.Main" />
-      <module name="TDDInDepth.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codurance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AccountServiceShould">
+    <configuration name="AccountServiceShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -184,7 +159,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.codurance.module1.preRequisites.importanceOfAutomatedTests.CalculatorShould&quot;" />
+            <option value="&quot;com.codurance.module1.TestDoublesMockito.Mock.AccountServiceShould&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -195,7 +170,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CalculatorShould.addTwoNumbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OrderProcessorShould (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -208,7 +183,77 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.codurance.module1.preRequisites.importanceOfAutomatedTests.CalculatorShould.addTwoNumbers&quot;" />
+            <option value="&quot;com.codurance.module1.TestDoublesMockito.Stub.OrderProcessorShould&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="OrderProcessorShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.codurance.module1.TestDoublesMockito.Dummy.OrderProcessorShould&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'TDDInDepth.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.codurance.module1.TestDoublesMockito.Spy.UserServiceShould&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -221,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CalculatorShould" />
-        <item itemvalue="Gradle.CalculatorShould.addTwoNumbers" />
-        <item itemvalue="Application.CalculatorTest" />
-        <item itemvalue="Application.com.codurance.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.AccountServiceShould" />
+        <item itemvalue="Gradle.UserServiceShould" />
+        <item itemvalue="Gradle.OrderProcessorShould (1)" />
+        <item itemvalue="Gradle.OrderProcessorShould" />
+        <item itemvalue="Gradle.Tests in 'TDDInDepth.test'" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720600821307</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Module1: Pre-requisites: Test Doubles Mockito files">
+      <option name="closed" value="true" />
+      <created>1721058275980</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721058275980</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +419,8 @@
     <MESSAGE value="Module1: How we do TDD: TDD Cycle: Refactoring for readability" />
     <MESSAGE value="Module1: How we do TDD: TDD Cycle: Refactoring for duplication" />
     <MESSAGE value="Module1: Pre-requisites: What is testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module1: Pre-requisites: What is testing" />
+    <MESSAGE value="Module1: Pre-requisites: Test Doubles Mockito files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module1: Pre-requisites: Test Doubles Mockito files" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
