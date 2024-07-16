@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4faddfaf-d4b1-41c2-a5de-245d3819a9dc" name="Changes" comment="Module1: Pre-requisites: Test Doubles Mockito files">
+    <list default="true" id="6bfc2330-53d2-43ec-b6f5-fe07972dce27" name="Changes" comment="Module1: Pre-requisites: Integration Tests Repository Example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/module1/preRequisites/mainTypesOfTests/integrationTests/libraryExample/JacksonJsonMarshaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/module1/preRequisites/mainTypesOfTests/integrationTests/libraryExample/JsonMarshaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/module1/preRequisites/mainTypesOfTests/integrationTests/libraryExample/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/module1/preRequisites/mainTypesOfTests/integrationTests/libraryExample/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/preRequisites/mainTypesOfTests/integrationTests/libraryExample/ProductServiceIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/preRequisites/mainTypesOfTests/integrationTests/libraryExample/ProductServiceShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Dummy/OrderProcessorShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Dummy/OrderProcessorShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Mock/AccountServiceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Mock/AccountServiceShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Spy/UserServiceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Spy/UserServiceShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Stub/OrderProcessorShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/module1/TestDoublesMockito/Stub/OrderProcessorShould.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,125 +30,48 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TDDInDepth" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="6b9bd20a22c1d3c958e69f3325663454fff7f048" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;benjaminrae&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:/benjaminrae/TDDInDepth.git&quot;,
-    &quot;accountId&quot;: &quot;4079533e-bb17-4868-8dbf-e845a0cfe1d5&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2ionJAK3vlVqrxRMd16o6aqsoAB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.AccountServiceShould.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FizzBuzzShould.Convert1To1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FizzBuzzShould.Covert3ToFizz.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FizzBuzzShould.convert1To1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FizzBuzzShould.convert2To2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FizzBuzzShould.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FizzBuzzShould.name.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.OrderProcessorShould (1).executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.OrderProcessorShould.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TDDInDepth [:CalculatorTest.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TDDInDepth [:Main.main()].executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.Tests in 'TDDInDepth.test'.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.UserServiceShould.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/test-doubles-mockito&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ben/Documents/dev/TDDInDepth/src/test/java/com/codurance/module1/TestDoublesMockito&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Ben/Documents/dev/TDDInDepth/src/main/java/com/codurance/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Ben\\Documents\\dev\\TDDInDepth\\typescript-examples\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.ProductServiceIntegrationTest.convertProductToJson.executor": "Run",
+    "Gradle.ProductServiceIntegrationTest.executor": "Run",
+    "Gradle.ProductServiceShould.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "feature/integration-test-example-library",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ts.external.directory.path": "C:\\Users\\Ben\\Documents\\dev\\TDDInDepth\\typescript-examples\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.codurance.module1.howWeDoTDD.threeRulesOfTDD" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ben\Documents\dev\TDDInDepth\src\test\java\com\codurance\module1\TestDoublesMockito" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.codurance.module1.preRequisites.whatIsTesting" />
-      <recent name="com.codurance.module1.howWeDoTDD.threeRulesOfTDD" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.codurance.module1.preRequisites.importanceOfAutomatedTests" />
-      <recent name="com.codurance.module1.preRequisites.whatIsAutomatedTesting" />
-      <recent name="com.codurance.module1.howWeDoTDD.threeRulesOfTDD" />
-      <recent name="com.codurance.module1.howWeDoTDD.ruleOfTDD" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.codurance.module1.preRequisites.importanceOfAutomatedTests" />
-      <recent name="com.codurance.module1.preRequisites.whatIsAutomatedTesting" />
+      <recent name="com.codurance.module1.preRequisites.mainTypesOfTests.integrationTests.libraryExample" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AccountServiceShould">
-    <configuration name="AccountServiceShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ProductServiceIntegrationTest.convertProductToJson">
+    <configuration name="ProductServiceIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -159,7 +84,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.codurance.module1.TestDoublesMockito.Mock.AccountServiceShould&quot;" />
+            <option value="&quot;com.codurance.module1.preRequisites.mainTypesOfTests.integrationTests.libraryExample.ProductServiceIntegrationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -170,7 +95,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="OrderProcessorShould (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProductServiceIntegrationTest.convertProductToJson" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -183,7 +108,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.codurance.module1.TestDoublesMockito.Stub.OrderProcessorShould&quot;" />
+            <option value="&quot;com.codurance.module1.preRequisites.mainTypesOfTests.integrationTests.libraryExample.ProductServiceIntegrationTest.convertProductToJson&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -194,7 +119,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="OrderProcessorShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProductServiceShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -207,75 +132,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.codurance.module1.TestDoublesMockito.Dummy.OrderProcessorShould&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'TDDInDepth.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'TDDInDepth.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="UserServiceShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.codurance.module1.TestDoublesMockito.Spy.UserServiceShould&quot;" />
+            <option value="&quot;com.codurance.module1.preRequisites.mainTypesOfTests.integrationTests.libraryExample.ProductServiceShould&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -288,178 +145,17 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AccountServiceShould" />
-        <item itemvalue="Gradle.UserServiceShould" />
-        <item itemvalue="Gradle.OrderProcessorShould (1)" />
-        <item itemvalue="Gradle.OrderProcessorShould" />
-        <item itemvalue="Gradle.Tests in 'TDDInDepth.test'" />
+        <item itemvalue="Gradle.ProductServiceIntegrationTest.convertProductToJson" />
+        <item itemvalue="Gradle.ProductServiceIntegrationTest" />
+        <item itemvalue="Gradle.ProductServiceShould" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
-      </set>
-    </attachedChunks>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="4faddfaf-d4b1-41c2-a5de-245d3819a9dc" name="Changes" comment="" />
-      <created>1720162183324</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1720162183324</updated>
-      <workItem from="1720162187647" duration="3491000" />
-      <workItem from="1720165728245" duration="1216000" />
-      <workItem from="1720599616468" duration="4240000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1720162400390</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1720162400390</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Module1: How we do TDD: Three rules of TDD: 1">
-      <option name="closed" value="true" />
-      <created>1720164071932</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1720164071932</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Module1: How we do TDD: Three rules of TDD: Break rule 1">
-      <option name="closed" value="true" />
-      <created>1720166540226</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1720166540226</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Module1: How we do TDD: Three rules of TDD: Break rule 2">
-      <option name="closed" value="true" />
-      <created>1720166863980</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1720166863980</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Module1: How we do TDD: Three rules of TDD: Break rule 3">
-      <option name="closed" value="true" />
-      <created>1720166905362</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1720166905362</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Module1: How we do TDD: TDD Cycle: 1">
-      <option name="closed" value="true" />
-      <created>1720176739461</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1720176739461</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Module1: How we do TDD: TDD Cycle: End of Red Phase">
-      <option name="closed" value="true" />
-      <created>1720178222698</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1720178222698</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Module1: How we do TDD: TDD Cycle: Refactor Phase">
-      <option name="closed" value="true" />
-      <created>1720182194687</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1720182194687</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Module1: How we do TDD: TDD Cycle: Refactoring for readability">
-      <option name="closed" value="true" />
-      <created>1720183213865</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1720183213865</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Module1: How we do TDD: TDD Cycle: Refactoring for duplication">
-      <option name="closed" value="true" />
-      <created>1720599638423</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1720599638423</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Module1: Pre-requisites: What is testing">
-      <option name="closed" value="true" />
-      <created>1720600821307</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1720600821307</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Module1: Pre-requisites: Test Doubles Mockito files">
-      <option name="closed" value="true" />
-      <created>1721058275980</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1721058275980</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
-    <MESSAGE value="Module1: How we do TDD: Three rules of TDD: 1" />
-    <MESSAGE value="Module1: How we do TDD: Three rules of TDD: Break rule 1" />
-    <MESSAGE value="Module1: How we do TDD: Three rules of TDD: Break rule 2" />
-    <MESSAGE value="Module1: How we do TDD: Three rules of TDD: Break rule 3" />
-    <MESSAGE value="Module1: How we do TDD: TDD Cycle: 1" />
-    <MESSAGE value="Module1: How we do TDD: TDD Cycle: End of Red Phase" />
-    <MESSAGE value="Module1: How we do TDD: TDD Cycle: Refactor Phase" />
-    <MESSAGE value="Module1: How we do TDD: TDD Cycle: Refactoring for readability" />
-    <MESSAGE value="Module1: How we do TDD: TDD Cycle: Refactoring for duplication" />
-    <MESSAGE value="Module1: Pre-requisites: What is testing" />
-    <MESSAGE value="Module1: Pre-requisites: Test Doubles Mockito files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module1: Pre-requisites: Test Doubles Mockito files" />
-  </component>
-  <component name="VgoProject">
-    <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/codurance/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="Module1: Pre-requisites: Integration Tests Repository Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module1: Pre-requisites: Integration Tests Repository Example" />
   </component>
 </project>
