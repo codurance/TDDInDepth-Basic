@@ -4,7 +4,7 @@ public class OrderProcessor {
 
     private int orderCount;
 
-    OrderProcessor(int orderCount) {
+    public OrderProcessor(int orderCount) {
 
         this.orderCount = orderCount;
     }
