@@ -26,15 +26,6 @@ public class AccountService {
         this.accountRepository.saveAccount(account);
     }
 
-    private Account getAccountBy(UUID uuid) throws NoAccountFoundException {
-        Optional<Account> maybeAccount = this.accountRepository.findAccountBy(uuid);
-        if (maybeAccount.isPresent()) {
-            return maybeAccount.get();
-        } else {
-            throw new NoAccountFoundException();
-        }
-    }
-
     public Statement createStatementForAccountWith(String id) throws NoAccountFoundException {
         UUID uuid = uuidService.convertToUUID(id);
         Account account = getAccountBy(uuid);
@@ -47,6 +38,15 @@ public class AccountService {
         Account account = new Account(uuid);
         accountRepository.saveAccount(account);
         return account;
+    }
+
+    private Account getAccountBy(UUID uuid) throws NoAccountFoundException {
+        Optional<Account> maybeAccount = this.accountRepository.findAccountBy(uuid);
+        if (maybeAccount.isPresent()) {
+            return maybeAccount.get();
+        } else {
+            throw new NoAccountFoundException();
+        }
     }
 
     private AccountTransaction createTransactionFor(int amount) {

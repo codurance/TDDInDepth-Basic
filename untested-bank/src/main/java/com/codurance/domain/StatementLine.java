@@ -12,4 +12,13 @@ public class StatementLine {
         this.date = date;
         this.balance = balance;
     }
+
+    @Override
+    public String toString() {
+        return "StatementLine{" +
+            "amount=" + amount +
+            ", date=" + date +
+            ", balance=" + balance +
+            '}';
+    }
 }

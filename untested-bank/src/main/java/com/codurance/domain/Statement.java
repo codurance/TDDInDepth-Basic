@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Statement {
-    private final List<StatementLine> statementLines;
+    public final List<StatementLine> statementLines;
 
     private Statement(List<StatementLine> statementLines) {
         this.statementLines = statementLines;

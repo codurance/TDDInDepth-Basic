@@ -12,7 +12,7 @@ import com.codurance.infrastructure.persistence.MongoDatabaseManager;
 
 public class BankLauncher {
     public static void main(String[] args) {
-        AccountRepository accountRepository = new MongoAccountRepository(MongoDatabaseManager.getMongoClient());
+        AccountRepository accountRepository = new MongoAccountRepository(MongoDatabaseManager.getMongoClient("mongodb://localhost:27017"));
         UUIDService uuidService = new JavaUUIDService();
         Calendar calendar = new JavaCalendar();
         AccountService accountService = new AccountService(accountRepository, uuidService, calendar);
