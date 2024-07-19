@@ -1,11 +1,8 @@
-package com.codurance.module1.preRequisites.mainTypesOfTests.integrationTests;
+package com.codurance.module1.preRequisites.mainTypesOfTests.integrationTests.repositoryExample;
 
-import org.flywaydb.core.Flyway;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.testcontainers.containers.PostgreSQLContainer;
-import org.testcontainers.images.builder.Transferable;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 

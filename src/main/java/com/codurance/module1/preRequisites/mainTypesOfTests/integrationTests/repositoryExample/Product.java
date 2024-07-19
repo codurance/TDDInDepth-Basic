@@ -1,4 +1,4 @@
-package com.codurance.module1.preRequisites.mainTypesOfTests.integrationTests;
+package com.codurance.module1.preRequisites.mainTypesOfTests.integrationTests.repositoryExample;
 
 import java.util.Objects;
 import java.util.UUID;
