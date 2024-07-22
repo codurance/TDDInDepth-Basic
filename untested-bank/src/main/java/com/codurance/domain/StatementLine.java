@@ -1,6 +1,7 @@
 package com.codurance.domain;
 
 import java.util.Date;
+import java.util.Objects;
 
 public class StatementLine {
     private final int amount;
@@ -20,5 +21,17 @@ public class StatementLine {
             ", date=" + date +
             ", balance=" + balance +
             '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof StatementLine that)) return false;
+        return amount == that.amount && balance == that.balance && Objects.equals(date, that.date);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(amount, date, balance);
     }
 }
