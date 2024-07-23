@@ -1,7 +1,7 @@
-package com.codurance.module1.WhatToTest.Booking.Infrastructure;
+package com.codurance.module1.preRequisites.WhatToTest.Booking.Infrastructure;
 
-import com.codurance.module1.WhatToTest.Booking.Domain.Booking;
-import com.codurance.module1.WhatToTest.Booking.Domain.BookingAvailability;
+import com.codurance.module1.preRequisites.WhatToTest.Booking.Domain.Booking;
+import com.codurance.module1.preRequisites.WhatToTest.Booking.Domain.BookingAvailability;
 import jdk.jshell.spi.ExecutionControl;
 
 import java.util.Date;

@@ -1,6 +1,4 @@
-package com.codurance.module1.WhatToTest.Booking.Domain;
-
-import jdk.jshell.spi.ExecutionControl;
+package com.codurance.module1.preRequisites.WhatToTest.Booking.Domain;
 
 import java.util.Date;
 import java.util.List;

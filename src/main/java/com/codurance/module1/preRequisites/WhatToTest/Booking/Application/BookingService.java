@@ -1,9 +1,9 @@
-package com.codurance.module1.WhatToTest.Booking.Application;
+package com.codurance.module1.preRequisites.WhatToTest.Booking.Application;
 
-import com.codurance.module1.WhatToTest.Booking.Domain.Booking;
-import com.codurance.module1.WhatToTest.Booking.Domain.BookingAvailability;
-import com.codurance.module1.WhatToTest.Booking.Domain.BookingId;
-import com.codurance.module1.WhatToTest.Booking.Domain.BookingRepository;
+import com.codurance.module1.preRequisites.WhatToTest.Booking.Domain.Booking;
+import com.codurance.module1.preRequisites.WhatToTest.Booking.Domain.BookingAvailability;
+import com.codurance.module1.preRequisites.WhatToTest.Booking.Domain.BookingId;
+import com.codurance.module1.preRequisites.WhatToTest.Booking.Domain.BookingRepository;
 
 import java.util.List;
 
@@ -35,11 +35,11 @@ public class BookingService {
         bookingRepository.cancel(booking);
     }
 
-    public Booking getBookingDetails(BookingId id) {
+    public Booking getBookingDetails(BookingId id) throws Exception {
         return bookingRepository.get(id);
     }
 
-    public List<Booking> listBookings() {
+    public List<Booking> listBookings() throws Exception {
         return bookingRepository.all();
     }
 }

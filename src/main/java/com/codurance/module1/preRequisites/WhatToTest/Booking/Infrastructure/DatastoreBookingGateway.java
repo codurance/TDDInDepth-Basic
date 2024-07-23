@@ -1,8 +1,8 @@
-package com.codurance.module1.WhatToTest.Booking.Infrastructure;
+package com.codurance.module1.preRequisites.WhatToTest.Booking.Infrastructure;
 
-import com.codurance.module1.WhatToTest.Booking.Domain.Booking;
-import com.codurance.module1.WhatToTest.Booking.Domain.BookingGateway;
-import com.codurance.module1.WhatToTest.Booking.Domain.BookingId;
+import com.codurance.module1.preRequisites.WhatToTest.Booking.Domain.Booking;
+import com.codurance.module1.preRequisites.WhatToTest.Booking.Domain.BookingGateway;
+import com.codurance.module1.preRequisites.WhatToTest.Booking.Domain.BookingId;
 import jdk.jshell.spi.ExecutionControl;
 
 import java.util.List;

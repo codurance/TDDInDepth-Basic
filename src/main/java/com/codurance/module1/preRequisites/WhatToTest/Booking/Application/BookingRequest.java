@@ -1,9 +1,9 @@
-package com.codurance.module1.WhatToTest.Booking.Application;
+package com.codurance.module1.preRequisites.WhatToTest.Booking.Application;
 
 
-import com.codurance.module1.WhatToTest.Booking.Domain.Booking;
-import com.codurance.module1.WhatToTest.Booking.Domain.BookingId;
-import com.codurance.module1.WhatToTest.Booking.Domain.Traveler;
+import com.codurance.module1.preRequisites.WhatToTest.Booking.Domain.Booking;
+import com.codurance.module1.preRequisites.WhatToTest.Booking.Domain.BookingId;
+import com.codurance.module1.preRequisites.WhatToTest.Booking.Domain.Traveler;
 
 import java.util.Date;
 import java.util.List;
