@@ -21,6 +21,7 @@ dependencies {
     implementation 'org.flywaydb:flyway-core:10.15.2'
     implementation("org.slf4j:slf4j-api:1.6.1")
     implementation("org.slf4j:slf4j-simple:1.6.1")
+    testImplementation 'net.jqwik:jqwik:1.8.5'
 }
 
 test {
