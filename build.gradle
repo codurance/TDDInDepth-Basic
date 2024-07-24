@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'info.solidsoft.pitest' version '1.15.0'
 }
 
 group = 'com.codurance'
@@ -23,6 +24,14 @@ dependencies {
     implementation("org.slf4j:slf4j-simple:1.6.1")
     testImplementation 'net.jqwik:jqwik:1.8.5'
 }
+
+pitest {
+    //adds dependency to org.pitest:pitest-junit5-plugin and sets "testPlugin" to "junit5"
+    junit5PluginVersion = '1.2.1'
+    pitestVersion = '1.15.2'
+    // ...
+}
+
 
 test {
     useJUnitPlatform()
