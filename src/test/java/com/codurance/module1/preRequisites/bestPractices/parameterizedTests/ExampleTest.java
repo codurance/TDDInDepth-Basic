@@ -1,4 +1,4 @@
-package com.codurance.module1.preRequisites.bestPractices.parametrizedTests;
+package com.codurance.module1.preRequisites.bestPractices.parameterizedTests;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
