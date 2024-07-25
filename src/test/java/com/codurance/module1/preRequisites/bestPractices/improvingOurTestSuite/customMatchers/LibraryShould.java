@@ -7,7 +7,8 @@ import org.junit.jupiter.api.Test;
 
 import java.util.UUID;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 public class LibraryShould {
 
@@ -27,7 +28,7 @@ public class LibraryShould {
 
         library.addBook(book);
 
-        assertEquals(book, library.getBook(id));
+        assertThat(library.getBook(id)).isEqualTo(book);
     }
 
     @Test
@@ -39,7 +40,7 @@ public class LibraryShould {
         library.addBook(book);
         library.loanBook(id);
 
-        assertEquals(loanedBook, library.getBook(id));
+        assertThat(library.getBook(id)).isEqualTo(loanedBook);
     }
 
     @Test
@@ -52,7 +53,7 @@ public class LibraryShould {
         library.loanBook(id);
         boolean isBookAvailable = library.isBookAvailable(id);
 
-        assertFalse(isBookAvailable);
+        assertThat(isBookAvailable).isFalse();
     }
 
     @Test
@@ -62,7 +63,7 @@ public class LibraryShould {
 
         library.addBook(book);
 
-        assertThrows(CannotLoanBookException.class, () -> library.loanBook(id));
+        assertThatThrownBy(() -> library.loanBook(id)).isInstanceOf(CannotLoanBookException.class);
     }
 
     @Test
@@ -74,7 +75,7 @@ public class LibraryShould {
         library.addBook(loanedBook);
         library.returnBook(id);
 
-        assertEquals(returnedBook, library.getBook(id));
+        assertThat(library.getBook(id)).isEqualTo(returnedBook);
     }
 
     @Test
@@ -84,7 +85,7 @@ public class LibraryShould {
 
         library.addBook(book);
 
-        assertThrows(CannotReturnBookException.class, () -> library.returnBook(id));
+        assertThatThrownBy(() -> library.returnBook(id)).isInstanceOf(CannotReturnBookException.class);
     }
 
     @Test
@@ -96,7 +97,6 @@ public class LibraryShould {
         library.returnBook(id);
         boolean isBookAvailable = library.isBookAvailable(id);
 
-        assertTrue(isBookAvailable);
+        assertThat(isBookAvailable).isTrue();
     }
-
 }
