@@ -16,27 +16,27 @@ public class Library {
     public void loanBook(UUID id) throws CannotLoanBookException {
         Book book = getBook(id);
         canLoan(book);
-        book.loanBook();
-        repository.saveBook(book);
+        LoanedBook loanedBook = book.loanBook();
+        repository.saveBook(loanedBook);
     }
 
     public void returnBook(UUID id) throws CannotReturnBookException {
         Book bookById = getBook(id);
         canReturn(bookById);
-        bookById.returnBook();
-        repository.saveBook(bookById);
+        Book book = bookById.returnBook();
+        repository.saveBook(book);
 
     }
 
     private void canLoan(Book book) throws CannotLoanBookException {
-        if (book.isOnLoan) {
+        if (book.isOnLoan()) {
             throw new CannotLoanBookException();
         }
 
     }
 
     private void canReturn(Book book) throws CannotReturnBookException {
-        if (!book.isOnLoan) {
+        if (!book.isOnLoan()) {
             throw new CannotReturnBookException();
         }
         ;
