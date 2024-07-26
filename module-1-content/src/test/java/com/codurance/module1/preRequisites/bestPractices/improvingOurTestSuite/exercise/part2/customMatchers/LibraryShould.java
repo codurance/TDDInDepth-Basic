@@ -1,8 +1,10 @@
-package com.codurance.module1.preRequisites.bestPractices.improvingOurTestSuite.customMatchers;
+package com.codurance.module1.preRequisites.bestPractices.improvingOurTestSuite.exercise.part2.customMatchers;
 
+import com.codurance.module1.preRequisites.bestPractices.improvingOurTestSuite.customMatchers.Book;
+import com.codurance.module1.preRequisites.bestPractices.improvingOurTestSuite.customMatchers.Library;
+import com.codurance.module1.preRequisites.bestPractices.improvingOurTestSuite.customMatchers.LoanedBook;
 import com.codurance.module1.preRequisites.bestPractices.properNamingAndStructure.CannotLoanBookException;
 import com.codurance.module1.preRequisites.bestPractices.properNamingAndStructure.CannotReturnBookException;
-import org.assertj.core.api.AbstractAssert;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -29,7 +31,7 @@ public class LibraryShould {
 
         library.addBook(book);
 
-        LibraryAssert.assertThat(library).hasBook(book);
+        assertThat(library.getBook(id)).isEqualTo(book);
     }
 
     @Test
@@ -99,35 +101,5 @@ public class LibraryShould {
         boolean isBookAvailable = library.isBookAvailable(id);
 
         assertThat(isBookAvailable).isTrue();
-    }
-
-}
-
-class LibraryAssert extends AbstractAssert<LibraryAssert, Library> {
-
-    private final Library library;
-
-    public LibraryAssert(Library library) {
-        super(library, LibraryAssert.class);
-        this.library = library;
-    }
-
-    public static LibraryAssert assertThat(Library library) {
-        return new LibraryAssert(library);
-    }
-
-    public LibraryAssert hasBook(Book book) {
-        isNotNull();
-        Book foundBook = library.getBook(book.getId());
-
-        if (foundBook == null) {
-            failWithMessage("Expected book to be found");
-        }
-
-        if (foundBook != book) {
-            failWithMessage("Expected book to be equal to");
-        }
-
-        return this;
     }
 }

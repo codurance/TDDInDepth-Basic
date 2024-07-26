@@ -1,4 +1,4 @@
-package com.codurance.module1.preRequisites.bestPractices.improvingOurTestSuite.matchers;
+package com.codurance.module1.preRequisites.bestPractices.improvingOurTestSuite.example.matchers;
 
 import org.junit.jupiter.api.Test;
 

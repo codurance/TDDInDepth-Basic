@@ -1,4 +1,4 @@
-package com.codurance.module1.preRequisites.bestPractices.improvingOurTestSuite.assertJ;
+package com.codurance.module1.preRequisites.bestPractices.improvingOurTestSuite.exercise.part3.assertJ;
 
 import org.junit.jupiter.api.Test;
 
