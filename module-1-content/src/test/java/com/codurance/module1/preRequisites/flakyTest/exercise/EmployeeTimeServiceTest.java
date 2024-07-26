@@ -1,6 +1,5 @@
-package com.codurance.module1.preRequisites.flakyTest;
+package com.codurance.module1.preRequisites.flakyTest.exercise;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;

@@ -1,4 +1,4 @@
-package com.codurance.module1.preRequisites.flakyTest;
+package com.codurance.module1.preRequisites.flakyTest.exercise;
 
 import java.time.Clock;
 import java.time.LocalDate;
