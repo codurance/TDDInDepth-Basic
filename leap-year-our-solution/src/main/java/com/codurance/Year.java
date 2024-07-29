@@ -13,7 +13,7 @@ public class Year {
     }
 
     private boolean isYearDivisibleBy400() {
-        return year == 1600 || year == 1200 || year == 2000;
+        return year % 400 == 0;
     }
 
     @Override
