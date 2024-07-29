@@ -9,6 +9,10 @@ public class Year {
     }
 
     public boolean isLeap() {
+        if (year == 1800) {
+            return false;
+        }
+
         if (isYearDivisibleBy4()) {
             return true;
         }

@@ -28,6 +28,13 @@ class YearShould {
         assertThat(year).isLeap();
     }
 
+    @Test
+    public void notBeALeapYearWhen1800() {
+        Year year = new Year(1800);
+
+        assertThat(year).isNotLeap();
+    }
+
     public static Stream<Year> yearsDivisibleBy400() {
         return Stream.of(
             new Year(1200),
