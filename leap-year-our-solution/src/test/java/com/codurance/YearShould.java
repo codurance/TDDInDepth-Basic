@@ -28,24 +28,9 @@ class YearShould {
         assertThat(year).isLeap();
     }
 
-    @Test
-    public void notBeALeapYearWhen1800() {
-        Year year = new Year(1800);
-
-        assertThat(year).isNotLeap();
-    }
-
-    @Test
-    public void notBeALeapYearWhen1900() {
-        Year year = new Year(1900);
-
-        assertThat(year).isNotLeap();
-    }
-
-    @Test
-    public void notBeALeapYearWhen1700() {
-        Year year = new Year(1700);
-
+    @ParameterizedTest
+    @MethodSource("yearsDivisibleBy4And100ButNot400")
+    public void notBeALeapYearWhenDivisibleBy4And100ButNot400(Year year) {
         assertThat(year).isNotLeap();
     }
 
@@ -62,6 +47,14 @@ class YearShould {
             new Year(1988),
             new Year(1992),
             new Year(1996)
+        );
+    }
+
+    public static Stream<Year> yearsDivisibleBy4And100ButNot400() {
+        return Stream.of(
+            new Year(1700),
+            new Year(1800),
+            new Year(1900)
         );
     }
 }
