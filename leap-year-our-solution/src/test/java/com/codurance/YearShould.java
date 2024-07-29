@@ -27,28 +27,9 @@ class YearShould {
         assertTrue(isLeapYear);
     }
 
-    @Test
-    public void beALeapYearWhen1996() {
-        Year year = new Year(1996);
-
-        boolean isLeapYear = year.isLeap();
-
-        assertTrue(isLeapYear);
-    }
-
-    @Test
-    public void beALeapYearWhen1992() {
-        Year year = new Year(1992);
-
-        boolean isLeapYear = year.isLeap();
-
-        assertTrue(isLeapYear);
-    }
-    
-    @Test
-    public void beALeapYearWhen1988() {
-        Year year = new Year(1988);
-
+    @ParameterizedTest
+    @MethodSource("yearsDivisibleBy4")
+    public void beALeapYearWhenDivisibleBy4(Year year) {
         boolean isLeapYear = year.isLeap();
 
         assertTrue(isLeapYear);
@@ -59,6 +40,14 @@ class YearShould {
             new Year(1200),
             new Year(1600),
             new Year(2000)
+        );
+    }
+
+    public static Stream<Year> yearsDivisibleBy4() {
+        return Stream.of(
+            new Year(1988),
+            new Year(1992),
+            new Year(1996)
         );
     }
 }
