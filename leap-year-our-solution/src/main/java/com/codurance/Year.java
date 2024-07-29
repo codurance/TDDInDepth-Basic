@@ -9,11 +9,15 @@ public class Year {
     }
 
     public boolean isLeap() {
-        if (year == 1996 || year == 1992 || year == 1988) {
+        if (isYearDivisibleBy4()) {
             return true;
         }
 
         return isYearDivisibleBy400();
+    }
+
+    private boolean isYearDivisibleBy4() {
+        return year % 4 == 0;
     }
 
     private boolean isYearDivisibleBy400() {
