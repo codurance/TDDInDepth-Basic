@@ -29,6 +29,18 @@ public class YearProperties {
         assertThat(year).isNotLeap();
     }
 
+    @Property
+    public void yearsNotDivisibleBy4AreNotLeapYears(@ForAll @Positive int yearsNotDivisibleBy4) {
+        Assume.that(isNotDivisibleBy4(yearsNotDivisibleBy4));
+        Year year = new Year(yearsNotDivisibleBy4);
+
+        assertThat(year).isNotLeap();
+    }
+
+    private static boolean isNotDivisibleBy4(int yearsNotDivisibleBy4) {
+        return yearsNotDivisibleBy4 % 4 != 0;
+    }
+
     @Provide
     private Arbitrary<Integer> yearsDivisibleBy400() {
         return Arbitraries.integers().between(1, 10000).map(year -> year * 400);
