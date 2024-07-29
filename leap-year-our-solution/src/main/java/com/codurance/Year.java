@@ -9,15 +9,15 @@ public class Year {
     }
 
     public boolean isLeap() {
-        if (year == 1800 || year == 1900 || year == 1700) {
-            return false;
+        if (isNotLeap()) {
+            return isYearDivisibleBy400();
         }
 
-        if (isYearDivisibleBy4()) {
-            return true;
-        }
+        return isYearDivisibleBy4();
+    }
 
-        return isYearDivisibleBy400();
+    private boolean isNotLeap() {
+        return year == 1800 || year == 1900 || year == 1700;
     }
 
     private boolean isYearDivisibleBy4() {
