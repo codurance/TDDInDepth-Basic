@@ -6,33 +6,26 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static com.codurance.YearAssert.assertThat;
 
 class YearShould {
     @Test
     public void notBeLeapYearWhen1997() {
         Year year = new Year(1997);
 
-        boolean isLeapYear = year.isLeap();
-
-        assertFalse(isLeapYear);
+        assertThat(year).isNotLeap();
     }
 
     @ParameterizedTest
     @MethodSource("yearsDivisibleBy400")
     public void beALeapYearWhenDivisibleBy400(Year year) {
-        boolean isLeapYear = year.isLeap();
-
-        assertTrue(isLeapYear);
+        assertThat(year).isLeap();
     }
 
     @ParameterizedTest
     @MethodSource("yearsDivisibleBy4")
     public void beALeapYearWhenDivisibleBy4(Year year) {
-        boolean isLeapYear = year.isLeap();
-
-        assertTrue(isLeapYear);
+        assertThat(year).isLeap();
     }
 
     public static Stream<Year> yearsDivisibleBy400() {
@@ -51,3 +44,4 @@ class YearShould {
         );
     }
 }
+

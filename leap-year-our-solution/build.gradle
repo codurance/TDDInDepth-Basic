@@ -13,6 +13,7 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testImplementation 'net.jqwik:jqwik:1.8.5'
+    testImplementation 'org.assertj:assertj-core:3.26.3'
 }
 
 test {
