@@ -44,6 +44,15 @@ class YearShould {
 
         assertTrue(isLeapYear);
     }
+    
+    @Test
+    public void beALeapYearWhen1988() {
+        Year year = new Year(1988);
+
+        boolean isLeapYear = year.isLeap();
+
+        assertTrue(isLeapYear);
+    }
 
     public static Stream<Year> yearsDivisibleBy400() {
         return Stream.of(
