@@ -9,7 +9,7 @@ public class Year {
     }
 
     public boolean isLeap() {
-        if (year == 1800) {
+        if (year == 1800 || year == 1900) {
             return false;
         }
 
