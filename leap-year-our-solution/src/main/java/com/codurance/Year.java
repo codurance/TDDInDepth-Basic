@@ -9,6 +9,6 @@ public class Year {
     }
 
     public boolean isLeap() {
-        return year == 1600;
+        return year == 1600 || year == 1200;
     }
 }

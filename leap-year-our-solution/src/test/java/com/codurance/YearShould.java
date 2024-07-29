@@ -23,4 +23,13 @@ class YearShould {
 
         assertTrue(isLeapYear);
     }
+
+    @Test
+    public void beALeapYearWhen1200() {
+        Year year = new Year(1200);
+
+        boolean isLeapYear = year.isLeap();
+
+        assertTrue(isLeapYear);
+    }
 }
